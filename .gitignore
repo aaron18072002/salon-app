@@ -1,0 +1,83 @@
+# ======================================================================
+# IDE / Editor
+# ======================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# ======================================================================
+# Java / Spring Boot / Maven (Backend Services)
+# ======================================================================
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven build output (applies to all nested target folders)
+**/target/
+
+# Note: The .mvn folder and mvnw/mvnw.cmd files are NOT ignored by default.
+# It is best practice to commit them so others can build the project 
+# without installing Maven locally.
+
+# ======================================================================
+# Node.js / React / Next.js (Future Frontend)
+# ======================================================================
+# Dependencies
+**/node_modules/
+.pnp
+.pnp.js
+
+# Testing
+**/coverage/
+
+# Next.js build output
+**/.next/
+**/out/
+
+# React / Vite build output
+**/build/
+**/dist/
+
+# Environment variables (Never commit secrets!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm / yarn / pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ======================================================================
+# OS Generated Files
+# ======================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
