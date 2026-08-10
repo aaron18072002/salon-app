@@ -31,12 +31,13 @@
 *.tar.gz
 *.rar
 
-# Maven build output (applies to all nested target folders)
+# Maven build output
 **/target/
 
-# Note: The .mvn folder and mvnw/mvnw.cmd files are NOT ignored by default.
-# It is best practice to commit them so others can build the project 
-# without installing Maven locally.
+# BỎ QUA MAVEN WRAPPER (Nếu bạn muốn tự quản lý Maven trên máy)
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
 
 # ======================================================================
 # Node.js / React / Next.js (Future Frontend)
@@ -57,7 +58,7 @@
 **/build/
 **/dist/
 
-# Environment variables (Never commit secrets!)
+# Environment variables
 .env
 .env.local
 .env.development.local
